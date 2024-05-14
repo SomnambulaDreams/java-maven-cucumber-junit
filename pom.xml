@@ -33,6 +33,14 @@
         <url>https://github.com/SomnambulaDreams/java-maven-cucumber-junit/tree/main</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>GitHub Repository</id>
+            <name>GitHub - javaqa Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/SomnambulaDreams/java-maven-cucumber-junit</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>

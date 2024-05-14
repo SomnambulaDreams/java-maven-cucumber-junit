@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/cucumber-rerun.xml",
                 "html:target/cucumber-reports/output/report-rerun.html",
         },
-        features = "@target/rerun.txt",
+//        features = "@target/rerun.txt",
         glue = { "home.javaqa.mi.steps" },
         monochrome = true
 )
