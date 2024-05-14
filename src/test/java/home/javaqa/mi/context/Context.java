@@ -32,7 +32,7 @@ public class Context {
     public static void update(String key, Object value) {
         String wrappedKey = unifyKeyByThread(key);
         if (!context.containsKey(wrappedKey))
-            context.put(unifyKeyByThread(key), value);
+            context.put(wrappedKey, value);
         else {
             context.remove(wrappedKey);
             context.put(wrappedKey, value);
